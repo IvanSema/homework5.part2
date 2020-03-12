@@ -65,12 +65,12 @@ h1, h2 {
 }
 
 .headline-first{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .headline-second{
-    font-size: 12px;
+    font-size: 30px;
 }
 
 .list{
@@ -124,11 +124,10 @@ h1, h2 {
     background-color: #4a4f56;
     margin: 0 auto 0 auto;
     max-width: 800px;
-    height: 73px;
     text-align: center;
     color: #eb7e72;
     font-size: 30px;
-    padding: 31px 0 0 0;
+    padding: 31px 0 28px 0;
 }
 
 .footer-el:hover{
