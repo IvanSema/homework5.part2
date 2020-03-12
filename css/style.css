@@ -62,6 +62,7 @@ h1, h2 {
     text-align:center;
     color: #eb7e7f;
     padding: 35px 0 27px 0;
+    margin: 0 0 40px 0;
 }
 
 .headline-first{
@@ -73,12 +74,10 @@ h1, h2 {
     font-size: 30px;
 }
 
-.list{
-    margin: 40px auto 40px auto;
+.list-element{
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
     max-width: 800px;
-}
-
-.list .list-element{
     display: block;
     padding: 29px 15px 25px 15px;
     color: #cdcbd4;
@@ -87,26 +86,26 @@ h1, h2 {
 }
 
 
-.list .key{
+.key{
     font-size: 20px;
     color: white;
 }
 
-.list .list-element:nth-child(2n+1){
+.list-element:nth-child(2n+1){
     background-color: #88839e;
 }
 
-.list .list-element:nth-child(2n){
+.list-element:nth-child(2n){
     background-color: #7a7593;
 }
 
-.list .list-element:hover{
+.list-element:hover{
     background-color: #625e77;
     border-color: white;
 }
 
 
-.list .list-element:active{
+.list-element:active{
     background-color: #eb7e72;
     border-color: white;
 }
@@ -123,7 +122,7 @@ h1, h2 {
 
 .footer-el{
     background-color: #4a4f56;
-    margin: 0 auto 0 auto;
+    margin: 40px auto 0 auto;
     max-width: 800px;
     text-align: center;
     color: #eb7e72;
