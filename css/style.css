@@ -1,0 +1,144 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+.mainer{
+    border: 1px solid #dfdfdf;
+    padding: 25px 0;
+}
+
+.wrapper{
+    background-color: #3b3f45;
+    padding: 0 0 102px 0;
+    margin: 0 23px;
+}
+
+.header{
+    background-color: #4a4f56;
+    text-align:center;
+    color: #eb7e7f;
+    padding: 35px 0 27px 0;
+}
+
+.headline-first{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.headline-second{
+    font-size: 12px;
+}
+
+.list{
+    margin: 40px auto 40px auto;
+    max-width: 800px;
+}
+
+.list .list-element{
+    padding: 29px 15px 25px 15px;
+    color: #cdcbd4;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+
+.list .key{
+    font-size: 20px;
+    color: white;
+}
+
+.list label:nth-child(2n+1) .list-element{
+    background-color: #88839e;
+}
+
+.list label:nth-child(2n) .list-element{
+    background-color: #7a7593;
+}
+
+.list label .list-element:hover{
+    background-color: #625e77;
+    border-color: white;
+}
+
+
+.list label .list-element:active{
+    background-color: #eb7e72;
+    border-color: white;
+}
+
+[type="checkbox"]{
+    transform:scale(1.5);
+    margin:0 9px 0 0;
+}
+
+[type="checkbox"]:checked~*{
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
+
+.footer-el{
+    background-color: #4a4f56;
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+    height: 73px;
+    text-align: center;
+    color: #eb7e72;
+    font-size: 30px;
+    padding: 31px 0 0 0;
+}
+
+.footer-el:hover{
+    background-color: #4b535d;
+}
+
+.description:before{
+    content: "( "
+}
+
+.description:after{
+    content: " )"
+}
